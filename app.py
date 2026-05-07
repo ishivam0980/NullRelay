@@ -81,7 +81,7 @@ def valid_username(name):
 # ── Routes ─────────────────────────────────────────────────────────────────
 @app.route('/')
 def index():
-    return render_template('index.html')
+    return render_template('in---.html')
 
 @app.route('/api/vulnerability-scan')
 @limiter.limit("5 per minute")
